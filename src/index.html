@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html ng-app='fizzbuzzDisplay'>
+<head>
+	<title>Angular fizzbuzz</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src='../dist/bower_components/angular/angular.js'></script>
+	<script type="text/javascript" src='js/main.js'></script>
+</head>
+<body ng-controller = 'DisplayController as display'>
+
+	<span class = 'item' ng-repeat='item in display.items'>{{item.val}}</span>
+
+</body>
+</html>

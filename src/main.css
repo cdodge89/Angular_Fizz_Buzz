@@ -1,0 +1,10 @@
+.item{
+ float: left;
+ border: 2px solid white;
+ width: 18vw;
+ height: 10vh;
+ text-align: center;
+ background: rgba(10,10,10,.2);
+ border-radius: 10px;
+ font-size: 3em;
+}
